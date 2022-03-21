@@ -12,7 +12,7 @@ public class ChangeMethods {
         System.out.println("Generating change methods commands");
         System.out.println("Creating scanner, reader, writer and file objects");
         File myObj = new File("src/verblist.txt");
-        FileWriter myWriter = new FileWriter("src/output.txt");
+        FileWriter myWriter = new FileWriter("src/change-method.txt");
         Scanner myReader = new Scanner(myObj);
         Scanner myReader2 = new Scanner(myObj);
         System.out.println("Created scanner, reader, writer and file objects");
@@ -69,6 +69,7 @@ public class ChangeMethods {
         }
         myReader.close();
         myWriter.close();
-        System.out.println("Closed reader and writer");
+        System.out.println("Done");
+        System.out.println("######################################");
     }
 }

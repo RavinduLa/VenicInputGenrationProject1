@@ -10,7 +10,7 @@ public class DecrementVariable {
         System.out.println("Generating decrement variables commands");
         System.out.println("Creating scanner, reader, writer and file objects");
         File myObj = new File("src/nounlist.txt");
-        FileWriter myWriter = new FileWriter("src/output.txt");
+        FileWriter myWriter = new FileWriter("src/decrement-variables.txt");
         Scanner myReader = new Scanner(myObj);
         System.out.println("Created scanner, reader, writer and file objects");
         while (myReader.hasNextLine()) {
@@ -72,6 +72,7 @@ public class DecrementVariable {
         }
         myReader.close();
         myWriter.close();
-        System.out.println("Closed reader and writer");
+        System.out.println("Done");
+        System.out.println("######################################");
     }
 }

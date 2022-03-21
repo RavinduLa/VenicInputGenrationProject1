@@ -13,7 +13,7 @@ public class ChangeVariables {
         System.out.println("Generating change variables commands");
         System.out.println("Creating scanner, reader, writer and file objects");
         File myObj = new File("src/nounlist.txt");
-        FileWriter myWriter = new FileWriter("src/output.txt");
+        FileWriter myWriter = new FileWriter("src/change-variables.txt");
         Scanner myReader = new Scanner(myObj);
         Scanner myReader2 = new Scanner(myObj);
         System.out.println("Created scanner, reader, writer and file objects");
@@ -74,6 +74,7 @@ public class ChangeVariables {
         }
         myReader.close();
         myWriter.close();
-        System.out.println("Closed reader and writer");
+        System.out.println("Done");
+        System.out.println("######################################");
     }
 }

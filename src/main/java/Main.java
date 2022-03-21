@@ -7,8 +7,11 @@ import java.util.*;
 import branches.BranchesCreation;
 import branches.CheckoutBranch;
 import branches.MergeBranch;
+import method.AddMethod;
 import method.CallMethod;
-import variable.IterateArrays;
+import method.ChangeMethods;
+import method.DeleteMethod;
+import variable.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,11 +19,24 @@ public class Main {
         System.out.println("Initializing program....");
         try {
 
-            //IterateArrays.generate();
-            //BranchesCreation.generate();
-            //CheckoutBranch.generate();
-            //MergeBranch.generate();
+            //branches
+            /*BranchesCreation.generate();
+            CheckoutBranch.generate();
+            MergeBranch.generate();
+
+            //methods
+            AddMethod.generate();
             CallMethod.generate();
+            ChangeMethods.generate();
+            DeleteMethod.generate();
+
+            //variables
+            ChangeVariables.generate();
+            DecrementVariable.generate();
+            DeleteVariables.generate();*/
+            IncrementVariables.generate();
+            //IterateArrays.generate();
+
 
         } catch (FileNotFoundException e) {
             System.out.println("File Not found exception occurred");

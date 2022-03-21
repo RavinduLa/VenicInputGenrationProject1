@@ -10,7 +10,7 @@ public class CallMethod {
         System.out.println("Generating call method commands");
         System.out.println("Creating scanner, reader, writer and file objects");
         File verbFile = new File("src/verblist.txt");
-        FileWriter myWriter = new FileWriter("src/output.txt");
+        FileWriter myWriter = new FileWriter("src/call-method.txt");
         Scanner verbReader = new Scanner(verbFile);
         System.out.println("Created scanner, reader, writer and file objects");
 
@@ -28,6 +28,7 @@ public class CallMethod {
         }
         verbReader.close();
         myWriter.close();
-        System.out.println("Closed readers and writers.");
+        System.out.println("Done");
+        System.out.println("######################################");
     }
 }

@@ -14,7 +14,7 @@ public class MergeBranch {
 
         //initialize files, readers and writers
         File nounFile = new File("src/nounlist.txt");
-        FileWriter myWriter = new FileWriter("src/output.txt");
+        FileWriter myWriter = new FileWriter("src/merge-branch.txt");
         Scanner nounReader = new Scanner(nounFile);
         System.out.println("Created scanner, reader, writer and file objects");
 
@@ -33,5 +33,7 @@ public class MergeBranch {
 
         nounReader.close();
         myWriter.close();
+        System.out.println("Done");
+        System.out.println("######################################");
     }
 }

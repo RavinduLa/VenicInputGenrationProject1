@@ -22,7 +22,7 @@ public class IterateArrays {
         //initialize files, readers and writers
         File nounFile = new File("src/nounlist.txt");
         File verbFile = new File("src/verblist.txt");
-        FileWriter myWriter = new FileWriter("src/output.txt");
+        FileWriter myWriter = new FileWriter("src/iterate-arrays.txt");
         Scanner nounReader = new Scanner(nounFile);
         Scanner verbReader = new Scanner(verbFile);
         System.out.println("Created scanner, reader, writer and file objects");
@@ -72,6 +72,7 @@ public class IterateArrays {
 
         myWriter.close();
         nounReader.close();
-        System.out.println("Closed writer and noun reader");
+        System.out.println("Done");
+        System.out.println("######################################");
     }
 }

@@ -14,7 +14,7 @@ public class BranchesCreation {
 
         //initialize files, readers and writers
         File nounFile = new File("src/nounlist.txt");
-        FileWriter myWriter = new FileWriter("src/output.txt");
+        FileWriter myWriter = new FileWriter("src/branch-creation.txt");
         Scanner nounReader = new Scanner(nounFile);
         System.out.println("Created scanner, reader, writer and file objects");
 
@@ -38,5 +38,7 @@ public class BranchesCreation {
 
         nounReader.close();
         myWriter.close();
+        System.out.println("Done");
+        System.out.println("######################################");
     }
 }
