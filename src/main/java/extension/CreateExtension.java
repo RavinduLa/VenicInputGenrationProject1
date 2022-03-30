@@ -11,7 +11,7 @@ public class CreateExtension {
         System.out.println("Generating add extension commands");
         System.out.println("Creating scanner, reader, writer and file objects");
         File myObj = new File("src/nounlist.txt");
-        FileWriter myWriter = new FileWriter("src/output/class/add-class.txt");
+        FileWriter myWriter = new FileWriter("src/output/extension/add-extension.txt");
         Scanner myReader = new Scanner(myObj);
         System.out.println("Created scanner, reader, writer and file objects");
         while (myReader.hasNextLine()) {

@@ -12,7 +12,7 @@ public class EditExtension {
         System.out.println("Generating edit extension commands");
         System.out.println("Creating scanner, reader, writer and file objects");
         File myObj = new File("src/nounlist.txt");
-        FileWriter myWriter = new FileWriter("src/output/class/change-class.txt");
+        FileWriter myWriter = new FileWriter("src/output/extension/change-extension.txt");
         Scanner myReader = new Scanner(myObj);
         Scanner myReader2 = new Scanner(myObj);
         System.out.println("Created scanner, reader, writer and file objects");
