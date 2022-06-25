@@ -20,16 +20,16 @@ public class ChangeMethods {
 
         List<String> verbList = new ArrayList<String>();
 
-        System.out.println("Creating noun list");
+        System.out.println("Creating verb list");
 
         while (myReader.hasNextLine()){
             String data = myReader.nextLine();
             verbList.add(data);
         }
 
-        System.out.println("Created noun list");
+        System.out.println("Created verb list");
         int count = verbList.size();
-        System.out.println("Noun List Size : " + count);
+        System.out.println("Verb List Size : " + count);
 
         while (myReader2.hasNextLine()) {
             String data = myReader2.nextLine();
